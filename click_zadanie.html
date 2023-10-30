@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <div id="hhh">
+        <img src="garf1.jpg" alt="garf1" width="300" height="200">
+    </div>
+
+    <div id="ddd">
+        <img src="garf2.jpg" alt="garf2" width="300" height="200">
+    </div>
+
+    <div id="ccc">
+        
+    </div>
+    <p id="ccc"></p>
+    <p id="demo"></p>
+
+<script>
+hhh.addEventListener("mouseover", myFunction);
+ddd.addEventListener("mouseout", mySecondFunction);
+document.addEventListener("click", myThirdFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "jablko"
+}
+
+function mySecondFunction() {
+  document.getElementById("demo").innerHTML = "spacja"
+}
+
+function myThirdFunction() {
+    document.getElementById("ccc").innerHTML = "cokolwiek"
+}
+</script>   
+
+</body>
+</html>
